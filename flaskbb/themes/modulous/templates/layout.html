@@ -123,6 +123,7 @@
 		{% if current_user.permissions['banned'] and current_user and current_user.is_authenticated() %}
 			<div id="fuckadblock" style="background: red; color: white; position: fixed; z-index: 9999; bottom: 0; height: 30px; left: 0; right: 0; text-align: center; padding: 5px; display: none;">
 			YOU HAVE BEEN BANNED, you can appeal by sending me an e-mail.
+			</div>
 		{% endif %}
         {% endblock %}
 
