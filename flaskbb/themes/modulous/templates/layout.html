@@ -107,15 +107,14 @@
 				</div>
                     {% else %}
                     <ul class="nav navbar-nav navbar-right">
+						<li><a href="/search">Search</a></li>
                         <li><a href="{{ url_for('auth.register') }}">Register</a></li>
                         <li><a href="{{ url_for('auth.login') }}">LOG IN</a></li>
 
                     </ul>
                     {% endif %}
                     {% block search %}
-                    <form class="navbar-form navbar-search" role="search" action="/search" method="GET">
-						<li><a href="/search">Search</a></li>
-                    </form>
+
                     {% endblock %}
                 </div>
             </div>
