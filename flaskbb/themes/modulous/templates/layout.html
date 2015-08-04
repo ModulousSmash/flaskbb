@@ -76,6 +76,7 @@
                                 <li>
                             </ul>
                         </li>
+						<li><a href="/search">Search</a></li>
                     </ul>
                     {% if current_user and current_user.is_authenticated() %}
 
@@ -107,7 +108,7 @@
 				</div>
                     {% else %}
                     <ul class="nav navbar-nav navbar-right">
-						<li><a href="/search">Search</a></li>
+
                         <li><a href="{{ url_for('auth.register') }}">Register</a></li>
                         <li><a href="{{ url_for('auth.login') }}">LOG IN</a></li>
 
