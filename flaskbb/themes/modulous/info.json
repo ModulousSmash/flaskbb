@@ -1,0 +1,9 @@
+{
+    "application": "flaskbb",
+    "identifier": "modulous",
+    "name": "Modulous",
+    "author": "EIREXE",
+    "license": "BSD/Apache 2.0 (Bootstrap)",
+    "description": "The default Modulous forums theme",
+    "version": "1.0.0"
+}
